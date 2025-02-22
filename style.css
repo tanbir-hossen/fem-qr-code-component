@@ -1,3 +1,41 @@
-h1 {
-    color: slateblue;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+body {
+  font-family: "Outfit", serif;
+  background: hsl(212, 45%, 89%);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: hsl(0, 0%, 100%);
+  max-width: 320px;
+  padding: 16px;
+  border-radius: 20px;
+  text-align: center;
+}
+.card img {
+  border-radius: 10px;
+}
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 120%;
+  width: 18ch;
+  letter-spacing: 0.2px;
+}
+
+p {
+  width: 26ch;
+  line-height: 140%;
+}
+
